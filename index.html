@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crypto</title>
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        Crypto
+    </header>
+    <section class="encry">
+            <h2>Message to Encrypt</h2>
+        <div class="message">
+            <input type="text" id="itext" placeholder="Put your message here!">
+            <button onclick="EncryptData()">Encrypt</button>
+        </div>
+        
+        <div class="resultado">
+            <p>Message Encrypted</p>
+            <h3 id="iresult"></h3>
+        </div>
+    </section>
+    <section class="decry">
+        <div class="message">
+            <h2>Message to Decrypt</h2>
+            <input type="text" id="itextde" placeholder="Put your message here!">
+        </div>
+        <button onclick="DecryptData()">Decrypt</button>
+        <div class="resultado">
+            <p>Message Decrypted</p>
+            <h3 id="iresultde"></h3>
+        </div>
+    </section>
+    <footer>
+        <p>Developed by Canales Alcalde Angel David</p>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"></script>
+    <script type="text/javascript" src="md5.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+*, 
+html{
+margin: 0;
+padding: 0;
+font-family: 'DM Sans', sans-serif;
+}
+body{
+    background-color: cornflowerblue;
+}
+header{
+    background-color: rgb(5, 5, 199);
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    
+}
+.encry, .decry{
+    padding: 30px;
+    background-color: cornflowerblue;
+    height: 25vh;
+    
+}
+.encry input,
+.decry input{
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.encry button,
+.decry button{
+    padding: 14px;
+    width: 60%;
+}
+footer{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 12px;
+}
